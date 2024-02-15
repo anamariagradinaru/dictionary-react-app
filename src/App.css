@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --black-color: #2d2d2d;
+    --purple-color: #a445ed;
+    --gray-color: #757575;
+    --large-text: 64px;
+    --medium-text: 24px;
+    --small-text: 18px;
+    --very-small-text: 14px;
+}
