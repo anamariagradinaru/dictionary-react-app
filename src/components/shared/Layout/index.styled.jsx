@@ -2,12 +2,14 @@ import styled from 'styled-components';
 
 const Container = styled.div`
     display: flex;
-    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
     justify-content: center;
-    align-items: center;
-    font-family: 'Inter';
-    .title-container h1 {
-        color: var(--purple-color);
+
+    .layout__wrapper {
+        width: 736px;
+        display: flex;
+        flex-direction: column;
     }
 `;
 
